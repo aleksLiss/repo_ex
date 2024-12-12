@@ -1,3 +1,8 @@
 1. git show - info about last commit
 2. git add - add into index
 3. git commit -m - add into repository
+4. git add -p filename.txt:
+Если нужно в одном файле какие-то изменения добавить в коммит,
+а какие-то оставить для дальнейшего коммита.
+Используем e для ручного выбора что и куда,
+либо s что бы разделить автоматически.
