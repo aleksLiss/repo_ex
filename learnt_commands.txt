@@ -1,2 +1,3 @@
 1. git show - info about last commit
-
+2. git add - add into index
+3. git commit -m - add into repository
