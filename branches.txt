@@ -32,7 +32,10 @@ git stash pop
 git checkout -b fix, и создастся ветка fix,
 затем commit -am "message" и HEAD будет указывать на текущий коммит.
 
-
+Если начал писать в master и изменения ЗАКОМИТТИЛ!!!, то
+1. Создать новую ветку - git checkout -b fix
+2. Перенести HEAD ветки master на указанный коммит с флагом force: - git branch -f master 54f4
+либо: git checkout -B master 54f4
 
 
 
