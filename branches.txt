@@ -14,3 +14,12 @@
 изменения.
 
 git commit -am "message": git add + git commit -m;
+
+HEAD - указатель на текущую ветку.
+
+
+
+
+
+
+
