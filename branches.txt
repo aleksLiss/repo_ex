@@ -60,3 +60,11 @@ git checkout 43f3(из какого коммита взять) file.txt(1 или
 git checkout HEAD file.txt
 
 
+===============================================================
+git log - просмотреть коммиты
+git log --oneline - коммит на одной строке
+git log master --oneline - коммиты на одной строке ветки master
+git show 23f2 посмотреть конкретный коммит
+git show HEAD~3  3 коммита назад либо git show @~3
+git show @~: file.txt - просмотреть файл на момент определенного коммита
+git show :/nameFunction - найти файл содержащий данную строку
